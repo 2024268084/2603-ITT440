@@ -22,6 +22,7 @@ To calculate the speedup factor of concurrent and parallel methods compared to s
 To analyze which method performs best for this transaction processing workload
 # 3. Implementation
 ## 3.1 Source Code 
+```ssh
 import random
 import time
 from concurrent.futures 
@@ -97,10 +98,11 @@ if __name__ == "__main__":
     n = 100000
     print(f"Processing {n:,} transactions...\n")
     transactions = generate_transactions(n)
-'''
+```
     
-    
-  ## 3.2 Implementation Description
+
+## 3.2 Implementation Description
+
   | Function                   | Purpose                                                           |
 |--------------------------|-------------------------------------------------------------------|
 | generate_transactions(n) | Creates random transactions with random amounts                   |
